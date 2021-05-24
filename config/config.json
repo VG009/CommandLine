@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "listcommand-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/listcommand/ListcommandCommandSet.js",
+          "manifest": "./src/extensions/listcommand/ListcommandCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListcommandCommandSetStrings": "lib/extensions/listcommand/loc/{locale}.js"
+  }
+}

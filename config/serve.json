@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://portal009.sharepoint.com/sites/DevlpoerSite/Lists/Invoices/AllItems.aspx",
+      "customActions": {
+        "68c0769b-b631-4e48-a945-39e03e9082f9": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "listcommand": {
+      "pageUrl": "https://portal009.sharepoint.com/sites/DevlpoerSite/Lists/Invoices/AllItems.aspx",
+      "customActions": {
+        "68c0769b-b631-4e48-a945-39e03e9082f9": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
